@@ -1,0 +1,25 @@
+ODERZHIMYE 56.6.8 - MATERIAL BOOKMARKS
+Based on 56.6.7. Presentation-only revision.
+
+1. Added a small embossed, aged-gold question mark to BOTH manual covers.
+   No title, caption or book-within-a-book icon added to the cover.
+   The mark stays attached to the existing animated cover hinge.
+2. Replaced flat chapter/category controls with layered physical index markers.
+   The rules book uses woven folded markers; the grimoire uses dyed leather.
+   Each has a backing, rolled end, stitched selvedges, buried root and static
+   contact shadow. Page-edge layers occlude the roots. Markers have slightly
+   different recesses and angles; their labels are never tilted during reading
+   by more than the very small material angle.
+3. The selected marker pulls out slightly. A short flex at the buried attachment
+   accompanies the existing page turn. Native hit targets remain stationary.
+   Pointer cancellation, rapid repeat clicks, modal close and reduced motion
+   are handled without queued navigation or repeated rendering loops.
+4. Ten small precolored material samples; no animated filters or live masks.
+   Obsolete pseudo-tab transitions disabled. Assets included in the new cache.
+5. Book content, game data and mechanics, mobile ball renderer and prior card
+   reveal motion were not changed. Ghost ink remains violet/lilac; page paper
+   remains neutral. Original labels and accessible names are retained.
+
+New files: bookmarks.css, bookmarks.js, assets/bookmark-*.webp.
+Modified integration files: index.html, app.js (two decoration calls only),
+service-worker.js. Full ZIP deployment, not an incremental patch.

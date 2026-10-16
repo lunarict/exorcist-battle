@@ -1,0 +1,304 @@
+/* v56.6.13-review2 — the user's revised direction: familiar, worn PAPER index tabs.
+   Saturated identity colours return. Folio page-turn mechanics below are
+   literally preserved from the previously approved v56.6.12 build. */
+
+/* Plain dyed paper/card dividers protruding from between real page edges.
+   Almost-straight cut, small dog-eared corners, no leather, buckles or rivets.
+   Three genuinely distinct pigments remain legible even on narrow phones. */
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {
+  --paper-image:url('assets/bookmark-paper-demon.webp');
+  --paper-pigment:#9f3d51;
+  --paper-edge:#e5a2a3;
+  --paper-ink:#fff5e7;
+  --marker-ink:var(--paper-ink);
+  --marker-angle:-.42deg;
+  --marker-recess:4px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="ghost"] {
+  --paper-image:url('assets/bookmark-paper-ghost.webp');
+  --paper-pigment:#7746a5;
+  --paper-edge:#c9a8dd;
+  --paper-ink:#fcf0ff;
+  --marker-angle:.35deg;
+  --marker-recess:3px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="succubus"] {
+  --paper-image:url('assets/bookmark-paper-succubus.webp');
+  --paper-pigment:#a9457c;
+  --paper-edge:#e3a6c0;
+  --paper-ink:#fff0f7;
+  --marker-angle:-.24deg;
+  --marker-recess:5px;
+}
+body[data-ui] #entity-book-dialog .entity-tabs {
+  gap:12px!important;
+  padding:11px 8px 0!important;
+  height:77px!important;min-height:77px!important;flex:0 0 77px!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {
+  min-width:0!important;min-height:59px!important;height:59px!important;
+}
+body[data-ui] #entity-book-dialog .entity-tabs::after {
+  /* The stacked fore-edges conceal the ends of the bookmarks as in a real book. */
+  height:12px!important;bottom:-3px!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-body {
+  transform:translateY(3px) rotate(var(--marker-angle));
+  transition:transform 240ms cubic-bezier(.22,.75,.25,1)!important;
+  transform-origin:50% 90%!important;will-change:auto;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark].active .bookmark-body {
+  transform:translateY(-4px) rotate(0deg);
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front {
+  overflow:hidden!important;
+  /* Light wear along the top cut and only tiny chips at the upper corners. */
+  clip-path:polygon(0 5px, 1% 3px, 2.5% 3px, 3.5% 2px,
+    35% 2px, 40% 3px, 64% 2px, 88% 2px, 95% 3px,
+    98.5% 2px, 100% 5px, 100% 100%, 0 100%)!important;
+  border-radius:3px 4px 0 0!important;
+  background:
+    linear-gradient(180deg,#fff2e136 0%,#e8bd9811 18%,transparent 41%,#1c0f244c 91%,#100d1575 100%),
+    linear-gradient(90deg,#160d2252,transparent 8% 90%,#180f234a),
+    var(--paper-image) center / cover no-repeat!important;
+  background-color:var(--paper-pigment)!important;
+  border:1px solid color-mix(in srgb,var(--paper-edge) 64%,#472a46)!important;
+  border-bottom:0!important;
+  box-shadow:
+    inset 0 1px 0 #ffead576,
+    inset 1px 0 0 #ffffff2a,
+    inset -1px 0 0 #1c102636,
+    0 1px 1px #170b174a!important;
+  backface-visibility:hidden;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front::before {
+  /* A tiny worn/creased corner, rather than a decorative metal escutcheon. */
+  content:"";position:absolute;z-index:0;pointer-events:none;
+  top:2px;right:2px;width:18px;height:13px;
+  clip-path:polygon(10% 0,100% 0,100% 94%);
+  background:linear-gradient(128deg,#ffffff35 14%,#ffe6d596 58%,#28142060 100%);
+  box-shadow:-1px 1px 2px #2e172447;
+  opacity:.46;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-backing {
+  inset:3px 0 -11px 2px!important;
+  border-radius:2px 2px 0 0!important;
+  clip-path:polygon(1% 5px,98% 0,100% 4px,100% 100%,0 100%);
+  background:linear-gradient(90deg,#160b1666,#ffdec451 94%,#120a1650),var(--paper-image) center/cover!important;
+  border:1px solid color-mix(in srgb,var(--paper-edge) 42%,#301729)!important;
+  box-shadow:2px 3px 2px #0a07105c!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-shadow {
+  inset:7px -2px -6px 3px!important;
+  clip-path:none!important;
+  border-radius:2px!important;
+  background:linear-gradient(180deg,#110a1633,#0b06109c)!important;
+  box-shadow:0 3px 5px #09050e82!important;
+  opacity:.64;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-fold {
+  top:1px!important;left:2px!important;right:1px!important;height:5px!important;
+  clip-path:none!important;border:0!important;border-radius:0!important;
+  background:linear-gradient(180deg,#ffebd44f,transparent 65%)!important;
+  box-shadow:none!important;opacity:.77;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-fold::after {
+  opacity:.42!important;left:7px;right:12px;bottom:0;
+  background:linear-gradient(90deg,transparent,#fff1e87d 24% 73%,transparent)!important;
+}
+/* Stitch holes suggested leather. Cardstock bookmarks have no stitching. */
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-stitches {display:none!important;}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-root {
+  bottom:-9px!important;height:17px!important;border:0!important;
+  background:linear-gradient(180deg,transparent,#0a070da2)!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label {
+  flex-direction:row!important;gap:9px!important;
+  padding:5px 9px 12px!important;
+  color:var(--paper-ink)!important;
+  text-shadow:0 1px 1px #210e22a6,0 0 2px #28112660!important;
+  letter-spacing:.025em!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {
+  font-size:14px!important;line-height:1.16!important;
+  font-weight:800!important;white-space:nowrap!important;
+  letter-spacing:.018em!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .category-glyph {
+  display:flex!important;align-items:center;justify-content:center;
+  border:0!important;border-radius:0!important;
+  background:transparent!important;box-shadow:none!important;
+  width:18px!important;height:20px!important;flex:0 0 18px!important;
+  color:var(--paper-ink)!important;
+  opacity:.95!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .category-glyph svg {
+  width:17px!important;height:17px!important;flex:0 0 17px!important;
+  color:var(--paper-ink)!important;
+  filter:drop-shadow(0 1px 1px #2811277a)!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark].active .bookmark-front {
+  box-shadow:inset 0 1px 0 #fff3e5ac,
+    inset 1px 0 0 #ffffff55,
+    inset -1px 0 0 #1c102633,
+    0 3px 5px #0c060f7d!important;
+  filter:saturate(1.07) brightness(1.06);
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark][data-bookmark-held] .bookmark-front {
+  transform:translateY(1px)!important;
+}
+/* Hover lifts paper without rubber deformation; the active label stays sharp. */
+@media (hover:hover) and (pointer:fine) {
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]:hover .bookmark-body {
+    transform:translateY(-2px) rotate(0deg);
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark].active:hover .bookmark-body {
+    transform:translateY(-6px) rotate(0deg);
+  }
+}
+@media (max-width:599px) {
+  body[data-ui] #entity-book-dialog .entity-tabs {
+    padding:9px 3px 0!important;gap:7px!important;
+    height:75px!important;min-height:75px!important;flex-basis:75px!important;
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {height:62px!important;min-height:62px!important;}
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label {
+    flex-direction:column!important;gap:3px!important;padding:7px 2px 10px!important;
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {
+    font-size:11.8px!important;letter-spacing:0!important;
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .category-glyph {
+    width:17px!important;height:17px!important;flex:0 0 17px!important;
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .category-glyph svg {
+    width:16px!important;height:16px!important;
+  }
+}
+@media (max-width:359px) {
+  body[data-ui] #entity-book-dialog .entity-tabs {gap:5px!important;padding-left:2px!important;padding-right:2px!important;}
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {
+    font-size:10.8px!important;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-body,
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front {
+    transition:none!important;
+  }
+}
+
+/* Guard the page head while an inert leaf moves above it: avoid paints on
+   the text itself and keep the papery fore-edge at the same position. */
+body[data-ui] #entity-book-dialog .bound-turn-stage {
+  perspective:2400px;perspective-origin:50% 48%;
+  contain:layout paint;
+}
+body[data-ui] #entity-book-dialog .bound-turn-leaf {transform-style:preserve-3d;}
+body[data-ui] #entity-book-dialog .bound-turn-front {
+  box-shadow:inset -12px 0 14px -16px #423c42a8,inset 1px 0 1px #faf3e7a8;
+}
+body[data-ui] #entity-book-dialog .bound-turn-back {
+  background:linear-gradient(90deg,#1a10131a,#f1ece330 40%,#8d7d711c),var(--f-stock) center/610px!important;
+  box-shadow:inset 8px 0 22px -19px #453444b8;
+}
+body[data-ui] #entity-book-dialog .bound-turn-shadow {
+  background:linear-gradient(90deg,#160f1acc,rgba(18,12,22,.24) 36%,transparent 75%)!important;
+}
+body[data-ui] #entity-book-dialog .bound-turn-stage[data-direction="previous"] .bound-turn-shadow {
+  background:linear-gradient(270deg,#160f1acc,rgba(18,12,22,.24) 36%,transparent 75%)!important;
+}
+body[data-ui] #entity-book-dialog .bound-turn-light {
+  background:linear-gradient(90deg,#0000 76%,#faf0df2f 94%,#897c7040)!important;
+}
+/* Lightweight folio curl. There is no 3D text squashing, no recreated
+   text measurements, and no animated element heights: just one inert copy
+   behind a moving 1px paper lip and its contact shadow. */
+body[data-ui] #entity-book-dialog .grimoire-peel-stage {
+  perspective:none!important;
+  overflow:hidden!important;
+  contain:layout paint;
+  isolation:isolate;
+}
+body[data-ui] #entity-book-dialog .grimoire-peel-stage .grimoire-peel-leaf {
+  transform:none!important;
+  transform-style:flat!important;
+  will-change:clip-path;
+  opacity:1!important;
+}
+body[data-ui] #entity-book-dialog .grimoire-peel-stage .bound-turn-front {
+  transform:none!important;
+  backface-visibility:visible!important;
+}
+body[data-ui] #entity-book-dialog .grimoire-peel-stage .bound-turn-back,
+body[data-ui] #entity-book-dialog .grimoire-peel-stage .bound-turn-light {display:none!important;}
+body[data-ui] #entity-book-dialog .grimoire-peel-stage .bound-turn-shadow {
+  position:absolute;z-index:1;inset:0 auto 0 0!important;
+  width:53px!important;
+  height:100%!important;
+  transform-origin:50% 50%!important;
+  border:0;opacity:0;
+  background:linear-gradient(90deg,#231b27a1,#1b142380 26%,#18101b25 64%,transparent)!important;
+  filter:none;
+  pointer-events:none;
+}
+body[data-ui] #entity-book-dialog .grimoire-peel-stage[data-direction="previous"] .bound-turn-shadow {
+  background:linear-gradient(270deg,#231b27a1,#1b142380 26%,#18101b25 64%,transparent)!important;
+}
+body[data-ui] #entity-book-dialog .grimoire-crease {
+  position:absolute;z-index:4;left:0;top:0;bottom:0;width:27px;
+  opacity:0;pointer-events:none;
+  border-left:1px solid #faf6e77d;
+  background:linear-gradient(90deg,#fffef144,#dfd8ca8b 22%,#b4a99a4a 48%,transparent 100%);
+  box-shadow:-3px 0 6px -5px #21182099;
+}
+body[data-ui] #entity-book-dialog .grimoire-peel-stage[data-direction="previous"] .grimoire-crease {
+  border-left:0;border-right:1px solid #faf6e77d;
+  background:linear-gradient(270deg,#fffef144,#dfd8ca8b 22%,#b4a99a4a 48%,transparent 100%);
+  box-shadow:3px 0 6px -5px #21182099;
+}
+
+/* v56.6.15: apply approved bestiary folio turn to rulebook too. */
+body[data-ui] #rules-dialog .grimoire-peel-stage {
+  perspective:none!important;
+  overflow:hidden!important;
+  contain:layout paint;
+  isolation:isolate;
+}
+body[data-ui] #rules-dialog .grimoire-peel-stage .grimoire-peel-leaf {
+  transform:none!important;
+  transform-style:flat!important;
+  will-change:clip-path;
+  opacity:1!important;
+}
+body[data-ui] #rules-dialog .grimoire-peel-stage .bound-turn-front {
+  transform:none!important;
+  backface-visibility:visible!important;
+}
+body[data-ui] #rules-dialog .grimoire-peel-stage .bound-turn-back,
+body[data-ui] #rules-dialog .grimoire-peel-stage .bound-turn-light {display:none!important;}
+body[data-ui] #rules-dialog .grimoire-peel-stage .bound-turn-shadow {
+  position:absolute;z-index:1;inset:0 auto 0 0!important;
+  width:53px!important;
+  height:100%!important;
+  transform-origin:50% 50%!important;
+  border:0;opacity:0;
+  background:linear-gradient(90deg,#231b27a1,#1b142380 26%,#18101b25 64%,transparent)!important;
+  filter:none;
+  pointer-events:none;
+}
+body[data-ui] #rules-dialog .grimoire-peel-stage[data-direction="previous"] .bound-turn-shadow {
+  background:linear-gradient(270deg,#231b27a1,#1b142380 26%,#18101b25 64%,transparent)!important;
+}
+body[data-ui] #rules-dialog .grimoire-crease {
+  position:absolute;z-index:4;left:0;top:0;bottom:0;width:27px;
+  opacity:0;pointer-events:none;
+  border-left:1px solid #faf6e77d;
+  background:linear-gradient(90deg,#fffef144,#dfd8ca8b 22%,#b4a99a4a 48%,transparent 100%);
+  box-shadow:-3px 0 6px -5px #21182099;
+}
+body[data-ui] #rules-dialog .grimoire-peel-stage[data-direction="previous"] .grimoire-crease {
+  border-left:0;border-right:1px solid #faf6e77d;
+  background:linear-gradient(270deg,#fffef144,#dfd8ca8b 22%,#b4a99a4a 48%,transparent 100%);
+  box-shadow:3px 0 6px -5px #21182099;
+}

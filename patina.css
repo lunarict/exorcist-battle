@@ -1,0 +1,102 @@
+/* v56.6.8.1 — neutral paper and hand-worn grimoire bookmarks.
+   All grain is baked into image assets. No fullscreen filters or looping paint. */
+:root {
+  --paper:#d9d6d0;
+  --paper-2:#c8c3bf;
+  --paper-muted:#615c60;
+}
+/* Page block edges match cool bone-white sheets instead of ochre parchment. */
+body[data-ui] #entity-book-dialog .entity-tabs::after {
+  background:
+    linear-gradient(90deg,#554b4b44,transparent 7% 89%,#36303939),
+    repeating-linear-gradient(180deg,#e3ddd5 0 1px,#90898890 1px 2px,#cbc5be 2px 3px,#ece6de 3px 4px)!important;
+  box-shadow:0 -1px 0 #ebe5dda8,0 -4px 5px #08040c47!important;
+}
+body[data-ui] #rules-dialog .rules-toc::after {
+  background:
+    linear-gradient(180deg,#eae5df26,transparent 28%,#443b3b33),
+    repeating-linear-gradient(90deg,#dedbd4 0 1px,#948c8895 1px 2px,#cac3b9 2px 3px,#ede9e1 3px 4px)!important;
+  box-shadow:-1px 0 0 #eee9dfa3,-4px 0 5px #0b090c47!important;
+}
+@media(max-width:760px) {
+  body[data-ui] #rules-dialog .rules-toc::after {
+    background:
+      linear-gradient(90deg,#514a4540,transparent 8% 90%,#443b383a),
+      repeating-linear-gradient(180deg,#e0dbd4 0 1px,#92898480 1px 2px,#c6c0b7 2px 3px,#ede8df 3px 4px)!important;
+    box-shadow:0 -1px 0 #ece6dcb5,0 -4px 5px #08050c44!important;
+  }
+}
+/* Three independent, irregular pieces cut from a very old binding.
+   No changes to the textbook's neat cloth tabs. Hit areas remain rectangular. */
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {
+  --marker-image:url('assets/grimoire-worn-demon.webp');
+  --marker-cut:polygon(1px 7px,8% 3px,21% 1px,33% 2px,38% 6px,43% 1px,83% 2px,96% 0,100% 8px,99% 28%,95% 34%,99% 38%,99% 75%,100% 100%,1px 100%,2px 77%,0 57%,2px 36%,0 17%);
+  --marker-angle:-2.3deg;--marker-active-angle:-.7deg;--marker-recess:3px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="ghost"] {
+  --marker-image:url('assets/grimoire-worn-ghost.webp');
+  --marker-cut:polygon(1px 5px,15% 2px,44% 1px,50% 5px,57% 2px,90% 2px,96% 0,100% 7px,98% 30%,100% 42%,100% 78%,98% 100%,1px 100%,0 81%,3px 63%,0 47%,1px 27%);
+  --marker-angle:1.65deg;--marker-active-angle:.5deg;--marker-recess:1px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="succubus"] {
+  --marker-image:url('assets/grimoire-worn-succubus.webp');
+  --marker-cut:polygon(4px 4px,16% 1px,33% 2px,70% 2px,75% 7px,81% 3px,96% 1px,100% 7px,98% 24%,95% 31%,100% 40%,100% 83%,97% 100%,1px 100%,1% 85%,3px 71%,0 51%,3px 32%,1px 18%);
+  --marker-angle:-1.6deg;--marker-active-angle:-.4deg;--marker-recess:4px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front {
+  border-radius:0!important;
+  clip-path:var(--marker-cut);
+  background:
+    radial-gradient(ellipse at 12% 5%,#d2b19818,transparent 34%),
+    radial-gradient(ellipse at 91% 43%,#140c1838,transparent 32%),
+    linear-gradient(91deg,#0e09193a,transparent 8% 83%,#e0c6b524 93%,#0e0a1b73),
+    linear-gradient(176deg,#f8d4a21c,transparent 18% 54%,#0a051454),
+    var(--marker-image) center/145px!important;
+  border:1px solid #cab6a05c!important;
+  box-shadow:inset 1px 1px 0 #e4cdb529,inset -2px 0 2px #0a071d55,0 3px 2px #09060a8f!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-backing,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-shadow {
+  clip-path:var(--marker-cut);
+  border-radius:0!important;
+}
+/* In places the gilt rubs off, in places the leather is split and discolored. */
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front::before {
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:
+    linear-gradient(110deg,transparent 20%,#efd7b020 20.4%,transparent 21.2%) 0 24%/180px 44px no-repeat,
+    linear-gradient(104deg,transparent 38%,#08051157 38.8%,#e3c7b01d 39.2%,transparent 40%) 0 73%/140px 35px no-repeat,
+    radial-gradient(ellipse at 93% 7%,#e2c29d30,transparent 12%),
+    radial-gradient(ellipse at 8% 78%,#160d1f66,transparent 26%),
+    radial-gradient(ellipse at 65% 92%,#9c796d30,transparent 24%);
+  opacity:.85;
+}
+/* Tiny sewing holes and imperfect old seams. No perfect perimeter dash. */
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-stitches {
+  inset:9px 4px 0 5px!important;
+  opacity:.68;
+  transform:rotate(.6deg);
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="ghost"] .bookmark-stitches {transform:rotate(-1.2deg);inset:8px 6px 0 4px!important;}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="succubus"] .bookmark-stitches {transform:rotate(1.4deg);inset:12px 3px 0 6px!important;}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-stitches::before,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-stitches::after {
+  background:repeating-linear-gradient(180deg,#1409177a 0 1px,#c8a78c90 1px 2px,transparent 2px 5px,#e3bba555 5px 6px,transparent 6px 10px)!important;
+  -webkit-mask-image:linear-gradient(180deg,#000 0 23%,transparent 26% 35%,#000 39% 56%,transparent 59% 66%,#000 72% 100%);
+  mask-image:linear-gradient(180deg,#000 0 23%,transparent 26% 35%,#000 39% 56%,transparent 59% 66%,#000 72% 100%);
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-fold {
+  height:7px;border-radius:2px 4px 0 0;
+  background:linear-gradient(180deg,#0a0711aa,#d2bbab50 24%,transparent 49%,#0c071b66),var(--marker-image) center 5px/145px!important;
+  clip-path:polygon(0 2px,15% 1px,27% 3px,45% 0,61% 2px,76% 1px,87% 3px,100% 1px,100% 100%,0 100%);
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label {
+  position:relative;z-index:1;
+  text-shadow:0 1px 1px #0d091ae8,0 0 3px #130b17b8!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark].active .bookmark-body {
+  transform:translateY(-4px) rotate(var(--marker-active-angle));
+}
+@media(prefers-reduced-motion:reduce) {
+ body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-body { transition:none!important; }
+}
