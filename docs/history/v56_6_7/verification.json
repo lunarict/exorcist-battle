@@ -1,0 +1,1107 @@
+{
+  "version": "56.6.7",
+  "browser": "System Chromium, inline self-contained harness",
+  "checks": [
+    {
+      "check": "Rules cover has no text or pictogram",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Old engraved grimoire eye retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reveal characteristic 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reveal characteristic 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reveal characteristic 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reveal characteristic 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reveal characteristic 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reveal characteristic 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All six ritual seals filled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Hide characteristic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged traits survive hide/reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Switch to another player",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Switch back preserves reveals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No stuck buttons after height-only resize",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Paper paint uses no CSS mask/blur",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules chapter intro",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules chapter setup",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules chapter turn",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules chapter reading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules chapter cards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules chapter exorcism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules chapter suits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rules turn creates one leaf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Leaf is hidden from assistive tech",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No duplicate ids in page snapshot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Turn uses no height animation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rapid rule changes settle to last chapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Search shows results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Search jump opens highlighted chapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Escape during turn clears modal and leaf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Entity demon/1",
+      "passed": true,
+      "detail": "БЕЛАЯ ГОРЯЧКА"
+    },
+    {
+      "check": "Entity demon/2",
+      "passed": true,
+      "detail": "НАЗОЙЛИВЫЙ КОМАР"
+    },
+    {
+      "check": "Entity demon/3",
+      "passed": true,
+      "detail": "БАРАБАШКА"
+    },
+    {
+      "check": "Entity demon/4",
+      "passed": true,
+      "detail": "СУЩНОСТЬ В ВИДЕ ГНОМИКА"
+    },
+    {
+      "check": "Entity demon/5",
+      "passed": true,
+      "detail": "ЗЛОБНЫЙ КЛОУН"
+    },
+    {
+      "check": "Entity demon/6",
+      "passed": true,
+      "detail": "АДВОКАТ"
+    },
+    {
+      "check": "Entity demon/7",
+      "passed": true,
+      "detail": "ИСТИННОЕ ЗЛО"
+    },
+    {
+      "check": "Entity demon/8",
+      "passed": true,
+      "detail": "ПИКОВАЯ ДАМА"
+    },
+    {
+      "check": "Ink overflow demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity ghost/1",
+      "passed": true,
+      "detail": "СОСЕД СВЕРХУ"
+    },
+    {
+      "check": "Entity ghost/2",
+      "passed": true,
+      "detail": "НЕЧТО В УГЛУ ХОЛОДИЛЬНИКА"
+    },
+    {
+      "check": "Entity ghost/3",
+      "passed": true,
+      "detail": "РАЗДАВЛЕННЫЙ МУРАВЕЙ"
+    },
+    {
+      "check": "Entity ghost/4",
+      "passed": true,
+      "detail": "САНЯ ВЕРНИСОТКУ"
+    },
+    {
+      "check": "Entity ghost/5",
+      "passed": true,
+      "detail": "МАТЕМАТИЧКА"
+    },
+    {
+      "check": "Entity ghost/6",
+      "passed": true,
+      "detail": "КРОВАВАЯ МЭРИ"
+    },
+    {
+      "check": "Entity ghost/7",
+      "passed": true,
+      "detail": "ЗОЛОТАЯ РЫБКА"
+    },
+    {
+      "check": "Entity ghost/8",
+      "passed": true,
+      "detail": "ПОЗВОНИВШАЯ"
+    },
+    {
+      "check": "Ink overflow ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity succubus/1",
+      "passed": true,
+      "detail": "СОННЫЙ ПАРАЛИЧ"
+    },
+    {
+      "check": "Entity succubus/2",
+      "passed": true,
+      "detail": "БЫВШИЙ"
+    },
+    {
+      "check": "Entity succubus/3",
+      "passed": true,
+      "detail": "БЫВШАЯ"
+    },
+    {
+      "check": "Entity succubus/4",
+      "passed": true,
+      "detail": "НОЧНАЯ БАБОЧКА"
+    },
+    {
+      "check": "Entity succubus/5",
+      "passed": true,
+      "detail": "ЗЛОЙ КУПИДОН"
+    },
+    {
+      "check": "Entity succubus/6",
+      "passed": true,
+      "detail": "ЭДИК КАЛЛИН"
+    },
+    {
+      "check": "Entity succubus/7",
+      "passed": true,
+      "detail": "ПОСЛЕДНИЙ КУСОЧЕК"
+    },
+    {
+      "check": "Entity succubus/8",
+      "passed": true,
+      "detail": "СЫН МАМИНОЙ ПОДРУГИ"
+    },
+    {
+      "check": "Ink overflow succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Persistent tab DOM",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Outgoing leaf retains its ink",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Entity picker opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Picker selection settles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Effect detail opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Effect detail closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rapid entity turns clear transient sheets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reduced motion chapter change immediate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reduced motion category immediate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Home fits 320",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 320,
+        "rect": {
+          "x": 18,
+          "y": 116,
+          "width": 284,
+          "height": 649.5,
+          "top": 116,
+          "right": 302,
+          "bottom": 765.5,
+          "left": 18
+        },
+        "overflow": 3,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 320",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 320,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 320/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 320/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 320/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 320/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 320/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 320/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 320/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 320/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 320/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 320/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Home fits 360",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 360,
+        "rect": {
+          "x": 18,
+          "y": 116,
+          "width": 324,
+          "height": 649.5,
+          "top": 116,
+          "right": 342,
+          "bottom": 765.5,
+          "left": 18
+        },
+        "overflow": 3,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 360",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 360,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 360/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 360/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 360/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 360/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 360/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 360/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 360/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 360/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 360/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 360/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Home fits 390",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 390,
+        "rect": {
+          "x": 18,
+          "y": 117.234375,
+          "width": 354,
+          "height": 655.5,
+          "top": 117.234375,
+          "right": 372,
+          "bottom": 772.734375,
+          "left": 18
+        },
+        "overflow": 3,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 390",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 390,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 390/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 390/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 390/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 390/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 390/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 390/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 390/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 390/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 390/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 390/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Home fits 430",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 430,
+        "rect": {
+          "x": 18,
+          "y": 117.234375,
+          "width": 394,
+          "height": 655.5,
+          "top": 117.234375,
+          "right": 412,
+          "bottom": 772.734375,
+          "left": 18
+        },
+        "overflow": 3,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 430",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 430,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 430/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 430/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 430/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 430/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 430/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 430/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 430/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 430/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 430/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 430/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Home fits 600",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 600,
+        "rect": {
+          "x": 18,
+          "y": 117.234375,
+          "width": 564,
+          "height": 655.5,
+          "top": 117.234375,
+          "right": 582,
+          "bottom": 772.734375,
+          "left": 18
+        },
+        "overflow": 3,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 600",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 600,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 600/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 600/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 600/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 600/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 600/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 600/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 600/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 600/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 600/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 600/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Home fits 768",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 768,
+        "rect": {
+          "x": 32,
+          "y": 155,
+          "width": 704,
+          "height": 618.5,
+          "top": 155,
+          "right": 736,
+          "bottom": 773.5,
+          "left": 32
+        },
+        "overflow": 4,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 768",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 768,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 768/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 768/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 768/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 768/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 768/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 768/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 768/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 768/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 768/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 768/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Home fits 1024",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 1024,
+        "rect": {
+          "x": 32,
+          "y": 155,
+          "width": 960,
+          "height": 624.625,
+          "top": 155,
+          "right": 992,
+          "bottom": 779.625,
+          "left": 32
+        },
+        "overflow": 4,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 1024",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 1024,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 1024/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1024/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1024/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1024/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1024/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1024/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1024/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 1024/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 1024/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 1024/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Home fits 1280",
+      "passed": true,
+      "detail": {
+        "visible": true,
+        "viewport": 1280,
+        "rect": {
+          "x": 90,
+          "y": 155,
+          "width": 1100,
+          "height": 632.140625,
+          "top": 155,
+          "right": 1190,
+          "bottom": 787.140625,
+          "left": 90
+        },
+        "overflow": 4,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Game fits 1280",
+      "passed": true,
+      "detail": {
+        "visible": false,
+        "viewport": 1280,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "overflow": 0,
+        "documentOverflow": 0
+      }
+    },
+    {
+      "check": "Rules text fits 1280/intro",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1280/setup",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1280/turn",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1280/reading",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1280/cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1280/exorcism",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Rules text fits 1280/suits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 1280/demon",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 1280/ghost",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entity text fits 1280/succubus",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No unhandled browser errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Cover activation before modal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Modal after cover animation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Names, suits, entities and rules unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Height-only resize causes zero text fits",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "Closed globe ignores resize (mock lifecycle)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Visible globe still responds to resize (mock lifecycle)",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 169,
+  "failed": 0,
+  "browser_errors": [],
+  "measurements": {
+    "content_sha256": "2afc057343395d80ae41b809d207c8b3fad3ef708e62b37bcdd1f0d90648f682",
+    "before_height_only_fit_calls": 30,
+    "before_closed_globe_mock_draws": 11,
+    "after_height_only_fit_calls": 0,
+    "after_closed_globe_mock_draws": 0
+  },
+  "not_tested": [
+    "physical iPhone/Safari",
+    "hardware WebGL pixels",
+    "real online party",
+    "HTTP/service-worker deployment"
+  ]
+}

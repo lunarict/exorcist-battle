@@ -1,0 +1,1071 @@
+{
+  "checks": [
+    {
+      "check": "JavaScript parses: app.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "JavaScript parses: binding.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "JavaScript parses: fieldnotes.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "JavaScript parses: interactions.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "JavaScript parses: mobile-ball.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "JavaScript parses: ritual.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "JavaScript parses: service-worker.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "JavaScript parses: tabletop.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: binding.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: binding.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-face-1.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-shadow-1.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-face-2.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-shadow-2.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-face-3.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-shadow-3.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-face-4.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-shadow-4.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-face-5.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-shadow-5.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-face-6.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-shadow-6.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: polish.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: interactions.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: readability.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: ritual.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: ritual.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: refinement.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: folio.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: fieldnotes.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: fieldnotes.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/rag-stock.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/grimoire-hide.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/field-binder.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/mending-tape.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/fieldnote-edge-1.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/fieldnote-edge-2.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/fieldnote-edge-3.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/fieldnote-edge-4.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/fieldnote-edge-5.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/fieldnote-edge-6.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: tabletop.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: tabletop.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/tabletop-felt.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/cotton-stock.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/violet-bookcloth.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/ink-leather.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/pewter-grain.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/print-dust.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/wordmark.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: ./",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: styles.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: app.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: mobile-ball.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: icon.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: icon-192.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: icon-512.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: icon-maskable-512.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: apple-touch-icon.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/parchment-fibers.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/aged-cover.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/laid-rag.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/flecked-vellum.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/soft-kraft.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/bookcloth-weave.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-tape.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/liquid-caustics.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/leather-pressed.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/felt-needled.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/metal-handbrushed.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/paper-ink-flecks.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/plastic-microtexture.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/black-gloss-shell.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/torn-note-1.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/torn-note-2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/torn-note-3.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/torn-note-4.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/torn-note-5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/torn-note-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/ball-mobile-back.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/ball-mobile-front.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/ball-mobile-faces.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Precache exists: assets/ball-mobile-resin.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/print-dust.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/tabletop-felt.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/pewter-grain.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/ink-leather.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/cotton-stock.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/paper-tape.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/violet-bookcloth.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: tabletop.css -> assets/black-gloss-shell.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/rag-stock.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/torn-note-5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/field-binder.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/grimoire-hide.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/mending-tape.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/torn-note-1.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/torn-note-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/torn-note-4.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/torn-note-3.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: fieldnotes.css -> assets/torn-note-2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-shadow-3.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-face-3.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-shadow-1.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-face-4.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-shadow-5.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-shadow-6.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-face-2.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-face-1.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-face-6.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-face-5.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-shadow-2.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: binding.css -> assets/paper-shadow-4.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: folio.css -> assets/torn-note-5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: folio.css -> assets/torn-note-3.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: folio.css -> assets/torn-note-1.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: folio.css -> assets/torn-note-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: folio.css -> assets/torn-note-4.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: folio.css -> assets/black-gloss-shell.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: folio.css -> assets/torn-note-2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/leather-pressed.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/parchment-fibers.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/torn-note-5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/flecked-vellum.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/felt-needled.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/aged-cover.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/black-gloss-shell.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/laid-rag.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/liquid-caustics.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/torn-note-1.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/paper-tape.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/torn-note-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/torn-note-4.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/torn-note-3.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/bookcloth-weave.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/plastic-microtexture.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/soft-kraft.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/paper-ink-flecks.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/metal-handbrushed.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: styles.css -> assets/torn-note-2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> polish.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> refinement.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> apple-touch-icon.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> assets/wordmark.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> tabletop.js?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> styles.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> folio.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> binding.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> app.js?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> tabletop.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> interactions.js?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> binding.js?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> ritual.js?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> fieldnotes.js?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> mobile-ball.js?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> ritual.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> readability.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> fieldnotes.css?v=56.6.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local reference: index.html -> icon.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original paper silhouette 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original paper silhouette 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original paper silhouette 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original paper silhouette 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original paper silhouette 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original paper silhouette 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: bookcloth-weave.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: ball-mobile-front.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: ball-mobile-back.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: torn-note-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: parchment-fibers.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: tabletop-felt.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: aged-cover.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: leather-pressed.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: liquid-caustics.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: fieldnote-edge-3.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: fieldnote-edge-2.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: field-binder.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: laid-rag.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: ink-leather.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: ball-mobile-resin.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: mending-tape.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: fieldnote-edge-5.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: torn-note-3.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: metal-handbrushed.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: soft-kraft.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: rag-stock.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: torn-note-2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: flecked-vellum.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: torn-note-5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: fieldnote-edge-1.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: black-gloss-shell.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: felt-needled.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: torn-note-1.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: fieldnote-edge-6.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: paper-ink-flecks.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: violet-bookcloth.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: torn-note-4.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: ball-mobile-faces.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: grimoire-hide.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: wordmark.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: plastic-microtexture.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: pewter-grain.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: fieldnote-edge-4.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: cotton-stock.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: paper-tape.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original asset unchanged: print-dust.webp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Globe shaders, timing constants and math unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Globe initResources implementation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Globe renderAt implementation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Binding included in versioned shell",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 213,
+  "failed": 0
+}

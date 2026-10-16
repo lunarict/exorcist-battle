@@ -1,0 +1,1739 @@
+{
+  "checks": [
+    {
+      "check": "320x740 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 95.765625,
+          "available": 125.765625,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 103.30290222167969,
+          "available": 133.54727172851562,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 100.28421020507812,
+          "available": 130.83197021484375,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 71.93194580078125,
+          "available": 120.71435546875,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 94.430908203125,
+          "available": 124.61431884765625,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 98.4371337890625,
+          "available": 128.8031005859375,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 66.3819580078125,
+          "available": 120.360107421875,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "320x740 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 17,
+        "y": 200,
+        "width": 284,
+        "height": 512
+      }
+    },
+    {
+      "check": "320x740 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "320x740 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "320x740 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "320x740 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "320x740 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "320x740 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "320x740 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "320x740 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 40.140625,
+          "available": 82.328125,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 69.90428161621094,
+          "available": 83.1282958984375,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 63.78694152832031,
+          "available": 82.85957336425781,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "320x740 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "320x740 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 95.765625,
+          "available": 125.765625,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 103.30290222167969,
+          "available": 133.54727172851562,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 100.28421020507812,
+          "available": 130.83197021484375,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 71.93194580078125,
+          "available": 120.71435546875,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 94.430908203125,
+          "available": 124.61431884765625,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 98.4371337890625,
+          "available": 128.8031005859375,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 66.3819580078125,
+          "available": 120.360107421875,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "360x800 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 20,
+        "y": 200,
+        "width": 320,
+        "height": 572
+      }
+    },
+    {
+      "check": "360x800 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "360x800 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "360x800 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "360x800 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "360x800 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "360x800 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "360x800 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "360x800 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 43.21875,
+          "available": 90.328125,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 75.27909851074219,
+          "available": 91.12770080566406,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 68.70321655273438,
+          "available": 90.85932922363281,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "360x800 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "360x800 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 95.765625,
+          "available": 125.765625,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 103.30290222167969,
+          "available": 133.54727172851562,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 100.28421020507812,
+          "available": 130.83197021484375,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 71.93194580078125,
+          "available": 120.71435546875,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 94.430908203125,
+          "available": 124.61431884765625,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 98.4371337890625,
+          "available": 128.8031005859375,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 66.3819580078125,
+          "available": 120.360107421875,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "390x844 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 20,
+        "y": 200,
+        "width": 350,
+        "height": 616
+      }
+    },
+    {
+      "check": "390x844 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "390x844 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "390x844 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "390x844 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "390x844 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "390x844 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "390x844 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "390x844 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 43.21875,
+          "available": 98.328125,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 75.27909851074219,
+          "available": 99.12710571289062,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 68.70321655273438,
+          "available": 98.85906982421875,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "390x844 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390x844 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 95.765625,
+          "available": 125.765625,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 103.30290222167969,
+          "available": 133.54727172851562,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 100.28421020507812,
+          "available": 130.83197021484375,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 71.93194580078125,
+          "available": 120.71435546875,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 94.430908203125,
+          "available": 124.61431884765625,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 98.4371337890625,
+          "available": 128.8031005859375,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 66.3819580078125,
+          "available": 120.360107421875,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "430x932 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 20,
+        "y": 200,
+        "width": 390,
+        "height": 704
+      }
+    },
+    {
+      "check": "430x932 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "430x932 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "430x932 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "430x932 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "430x932 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "430x932 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "430x932 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "430x932 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 43.21875,
+          "available": 111.65625,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 75.27911376953125,
+          "available": 112.4698486328125,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 68.70321655273438,
+          "available": 112.17117309570312,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "430x932 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "430x932 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 110.375,
+          "available": 161,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 117.91191864013672,
+          "available": 161.3800506591797,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 114.89179229736328,
+          "available": 161.8440399169922,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 86.5399169921875,
+          "available": 161.75222778320312,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 109.04007720947266,
+          "available": 161.2857666015625,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 113.0456771850586,
+          "available": 161.56710815429688,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 80.875,
+          "available": 161,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "768x1024 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 187.5,
+        "y": 191,
+        "width": 540,
+        "height": 760
+      }
+    },
+    {
+      "check": "768x1024 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "768x1024 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "768x1024 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "768x1024 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "768x1024 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "768x1024 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "768x1024 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "768x1024 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 72.3125,
+          "available": 206.328125,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 106.64300537109375,
+          "available": 207.1190185546875,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 99.59735107421875,
+          "available": 206.84011840820312,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "768x1024 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "768x1024 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 110.375,
+          "available": 161,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 117.91191864013672,
+          "available": 161.3800506591797,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 114.89179229736328,
+          "available": 161.8440399169922,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 86.5399169921875,
+          "available": 161.75222778320312,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 109.04007720947266,
+          "available": 161.2857666015625,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 113.0456771850586,
+          "available": 161.56710815429688,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 80.9909439086914,
+          "available": 161.3800506591797,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "1024x768 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 187.5,
+        "y": 163,
+        "width": 796,
+        "height": 560
+      }
+    },
+    {
+      "check": "1024x768 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1024x768 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1024x768 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1024x768 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1024x768 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1024x768 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1024x768 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1024x768 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 72.3125,
+          "available": 253,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 106.64300537109375,
+          "available": 253.78744506835938,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 99.59735107421875,
+          "available": 253.51055908203125,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "1024x768 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1024x768 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 110.375,
+          "available": 161,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 117.91191101074219,
+          "available": 161.3800506591797,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 114.89179992675781,
+          "available": 161.84402465820312,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 86.53990173339844,
+          "available": 161.75222778320312,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 109.04006958007812,
+          "available": 161.28575134277344,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 113.04568481445312,
+          "available": 161.56710815429688,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 80.99093627929688,
+          "available": 161.3800506591797,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "1280x900 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 279.5,
+        "y": 163,
+        "width": 868,
+        "height": 692
+      }
+    },
+    {
+      "check": "1280x900 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1280x900 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1280x900 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1280x900 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1280x900 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1280x900 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1280x900 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "1280x900 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 72.3125,
+          "available": 253,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 106.64300537109375,
+          "available": 253.7874755859375,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 99.59735107421875,
+          "available": 253.51055908203125,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "1280x900 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1280x900 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 cover marks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 no words inside covers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 home fits width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 rules open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 seven folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 rule labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "01\nСуть игры",
+          "width": 110.375,
+          "available": 161,
+          "ok": true
+        },
+        {
+          "text": "02\nПодготовка",
+          "width": 117.91191864013672,
+          "available": 161.3800506591797,
+          "ok": true
+        },
+        {
+          "text": "03\nХод игрока",
+          "width": 114.89179229736328,
+          "available": 161.8440399169922,
+          "ok": true
+        },
+        {
+          "text": "04\nСчитка",
+          "width": 86.5399169921875,
+          "available": 161.75222778320312,
+          "ok": true
+        },
+        {
+          "text": "05\nТипы карт",
+          "width": 109.04007720947266,
+          "available": 161.2857666015625,
+          "ok": true
+        },
+        {
+          "text": "06\nЭкзорцизм",
+          "width": 113.0456771850586,
+          "available": 161.56710815429688,
+          "ok": true
+        },
+        {
+          "text": "07\nМасти",
+          "width": 80.9909439086914,
+          "available": 161.3800506591797,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "844x390 rules reading area",
+      "pass": true,
+      "detail": {
+        "x": 187.5,
+        "y": 138,
+        "width": 616,
+        "height": 207
+      }
+    },
+    {
+      "check": "844x390 chapter intro",
+      "pass": true,
+      "detail": {
+        "chapter": "intro",
+        "stages": 0
+      }
+    },
+    {
+      "check": "844x390 chapter setup",
+      "pass": true,
+      "detail": {
+        "chapter": "setup",
+        "stages": 0
+      }
+    },
+    {
+      "check": "844x390 chapter turn",
+      "pass": true,
+      "detail": {
+        "chapter": "turn",
+        "stages": 0
+      }
+    },
+    {
+      "check": "844x390 chapter reading",
+      "pass": true,
+      "detail": {
+        "chapter": "reading",
+        "stages": 0
+      }
+    },
+    {
+      "check": "844x390 chapter cards",
+      "pass": true,
+      "detail": {
+        "chapter": "cards",
+        "stages": 0
+      }
+    },
+    {
+      "check": "844x390 chapter exorcism",
+      "pass": true,
+      "detail": {
+        "chapter": "exorcism",
+        "stages": 0
+      }
+    },
+    {
+      "check": "844x390 chapter suits",
+      "pass": true,
+      "detail": {
+        "chapter": "suits",
+        "stages": 0
+      }
+    },
+    {
+      "check": "844x390 rapid rule selection settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 entity open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 three folded markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 entity labels fit",
+      "pass": true,
+      "detail": [
+        {
+          "text": "БЕСЫ",
+          "width": 72.3125,
+          "available": 231.65625,
+          "ok": true
+        },
+        {
+          "text": "ПРИЗРАКИ",
+          "width": 106.421875,
+          "available": 231.671875,
+          "ok": true
+        },
+        {
+          "text": "СУККУБЫ",
+          "width": 99.59735107421875,
+          "available": 232.18310546875,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "check": "844x390 suit demon",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 suit ghost",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 suit succubus",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 rapid entity switch settled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "844x390 no orphaned motion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bookmark and page animate together",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "search results still work",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "search return opens chapter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Escape closes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all eight demon entities navigate",
+      "pass": true,
+      "detail": [
+        "АДВОКАТ",
+        "БАРАБАШКА",
+        "БЕЛАЯ ГОРЯЧКА",
+        "ЗЛОБНЫЙ КЛОУН",
+        "ИСТИННОЕ ЗЛО",
+        "НАЗОЙЛИВЫЙ КОМАР",
+        "ПИКОВАЯ ДАМА",
+        "СУЩНОСТЬ В ВИДЕ ГНОМИКА"
+      ]
+    },
+    {
+      "check": "all eight ghost entities navigate",
+      "pass": true,
+      "detail": [
+        "ЗОЛОТАЯ РЫБКА",
+        "КРОВАВАЯ МЭРИ",
+        "МАТЕМАТИЧКА",
+        "НЕЧТО В УГЛУ ХОЛОДИЛЬНИКА",
+        "ПОЗВОНИВШАЯ",
+        "РАЗДАВЛЕННЫЙ МУРАВЕЙ",
+        "САНЯ ВЕРНИСОТКУ",
+        "СОСЕД СВЕРХУ"
+      ]
+    },
+    {
+      "check": "all eight succubus entities navigate",
+      "pass": true,
+      "detail": [
+        "БЫВШАЯ",
+        "БЫВШИЙ",
+        "ЗЛОЙ КУПИДОН",
+        "НОЧНАЯ БАБОЧКА",
+        "ПОСЛЕДНИЙ КУСОЧЕК",
+        "СОННЫЙ ПАРАЛИЧ",
+        "СЫН МАМИНОЙ ПОДРУГИ",
+        "ЭДИК КАЛЛИН"
+      ]
+    },
+    {
+      "check": "reduced motion skips leaf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reduced motion skips bookmark flex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "game still generates six traits",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "mini manual question visible",
+      "pass": true,
+      "detail": {
+        "x": 170.4760284423828,
+        "y": 121.9942626953125,
+        "width": 25.355133056640625,
+        "height": 25.355133056640625
+      }
+    },
+    {
+      "check": "previous trait reveal still works",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "mini manual opens rules",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "keyboard focus stays in modal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no JavaScript exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "passed": 199,
+  "failed": 0,
+  "method": "Chromium /usr/bin/chromium; inline local resources via set_content; no HTTP/PWA/device test"
+}
