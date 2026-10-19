@@ -1,0 +1,172 @@
+/* v56.6.16: Old-grimoire bookmark revision. One high-resolution transparent
+   painted card per category; real text and native accessible buttons.
+   The artwork never defines hit-testing, and the approved page curl remains.
+*/
+body[data-ui] #entity-book-dialog .entity-tabs {
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  align-items:end!important;
+  gap:7px!important;
+  padding:4px 3px 0!important;
+  margin:0 auto -1px!important;
+  width:min(100%,525px)!important;
+  max-width:525px!important;
+  height:102px!important;
+  min-height:102px!important;
+  flex:0 0 102px!important;
+  border:0!important;border-radius:0!important;
+  box-shadow:none!important;background:transparent!important;
+  overflow:visible!important;
+  isolation:isolate;
+}
+body[data-ui] #entity-book-dialog .entity-tabs::after {
+  bottom:-3px!important;height:11px!important;
+  left:2px!important;right:2px!important;z-index:8!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {
+  --tab-art:url('assets/bookmark-shaped-demon.webp');
+  --marker-angle:-1.2deg;
+  position:relative!important;
+  display:block!important;
+  width:100%!important;height:98px!important;min-height:98px!important;
+  min-width:0!important;
+  padding:0!important;margin:0!important;
+  background:none!important;box-shadow:none!important;border:0!important;
+  border-radius:0!important;
+  /* The *painting* is transparent, but the hit target remains rectangular. */
+  -webkit-mask-image:none!important;mask-image:none!important;
+  -webkit-clip-path:none!important;clip-path:none!important;
+  transform:none!important;translate:none!important;rotate:none!important;scale:none!important;
+  color:#f2e5d6!important;
+  perspective:none!important;
+  touch-action:manipulation;
+  -webkit-tap-highlight-color:transparent;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="ghost"] {
+  --tab-art:url('assets/bookmark-shaped-ghost.webp');--marker-angle:.85deg;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="succubus"] {
+  --tab-art:url('assets/bookmark-shaped-succubus.webp');--marker-angle:-.6deg;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]::before,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]::after {content:none!important;}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-body {
+  display:block!important;position:absolute!important;top:0!important;bottom:0!important;left:50%!important;right:auto!important;
+  width:min(100%,132px)!important;
+  transform-origin:50% 95%!important;
+  transform:translate3d(-50%,5px,0) rotate(var(--marker-angle))!important;
+  translate:none!important;rotate:none!important;
+  transition:transform 300ms cubic-bezier(.18,.79,.2,1),filter 280ms ease!important;
+  filter:drop-shadow(1px 4px 1px #08050b9c)
+         drop-shadow(0 1px 0 #b9987c35)!important;
+  pointer-events:none!important;
+  perspective:none!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark].active .bookmark-body {
+  transform:translate3d(-50%,-3px,0) rotate(0deg)!important;
+  filter:drop-shadow(1px 6px 3px #08040dbf)
+         drop-shadow(0 1px 0 #d6b9a957)!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front {
+  display:block!important;position:absolute!important;inset:0!important;
+  padding:0!important;
+  background:var(--tab-art) center / 100% 100% no-repeat!important;
+  background-color:transparent!important;
+  border:0!important;border-radius:0!important;
+  clip-path:none!important;
+  box-shadow:none!important;filter:none!important;
+  transform:none!important;
+  translate:0 0;rotate:0deg;
+  transition:none!important;
+  overflow:visible!important;
+  backface-visibility:visible!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label {
+  display:block!important;position:absolute!important;inset:0!important;
+  box-sizing:border-box!important;padding:0!important;margin:0!important;
+  width:100%!important;height:100%!important;
+  color:#f3e8d9!important;
+  text-shadow:0 1px 1px #140a0de8,0 2px 2px #0e0813ae!important;
+  background:none!important;border:0!important;
+  pointer-events:none!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {
+  position:absolute!important;
+  bottom:13px!important;
+  left:8%!important;right:8%!important;
+  display:block!important;
+  overflow:visible!important;
+  white-space:nowrap!important;
+  text-align:center!important;
+  font:800 16px/1.15 var(--t-body,system-ui,sans-serif)!important;
+  letter-spacing:.013em!important;
+  color:inherit!important;
+  text-shadow:inherit!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-shadow,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-backing,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-fold,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-stitches,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-root,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .category-glyph {
+  display:none!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark][data-bookmark-held] .bookmark-body {
+  transform:translate3d(-50%,8px,0) rotate(0deg) scale(.985)!important;
+  transition-duration:90ms!important;
+}
+@media(hover:hover) and (pointer:fine) {
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]:hover:not(.active) .bookmark-body {
+    transform:translate3d(-50%,-1px,0) rotate(0deg)!important;
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark].active:hover .bookmark-body {
+    transform:translate3d(-50%,-5px,0) rotate(0deg)!important;
+  }
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]:focus-visible,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]:focus-visible .bookmark-front {
+  outline:none!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]:focus-visible .bookmark-body {
+  /* Focus follows the physical cut rather than painting a rectangular UI box. */
+  filter:drop-shadow(0 0 4px #d1b18f88)
+         drop-shadow(1px 5px 3px #09040dbb)!important;
+}
+@media(max-width:599px) {
+  body[data-ui] #entity-book-dialog .entity-tabs {
+    height:92px!important;min-height:92px!important;flex-basis:92px!important;
+    padding:4px 1px 0!important;gap:3px!important;
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {
+    height:87px!important;min-height:87px!important;
+  }
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {
+    font-size:14.5px!important;letter-spacing:0!important;bottom:12px!important;
+    left:4%!important;right:4%!important;
+  }
+}
+@media(max-width:359px) {
+  body[data-ui] #entity-book-dialog .entity-tabs {gap:1px!important;padding-left:0!important;padding-right:0!important;}
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {
+    font-size:12.5px!important;letter-spacing:-.013em!important;bottom:12px!important;
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-body,
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front {transition:none!important;}
+}
+/* Old skins used an absolutely positioned faux folded corner and additional
+   full-rectangle ink overlay. Neither belongs on the actual die-cut artwork. */
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front::before,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-front::after {
+  content:none!important;display:none!important;
+}
+/* The previous active paper skin had stronger selector specificity than the
+   generic front reset. Remove its rectangular inset stroke entirely; the real
+   cut-out material already casts a correctly shaped drop-shadow. */
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark].active .bookmark-front,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark][data-bookmark-held] .bookmark-front {
+  box-shadow:none!important;
+  filter:none!important;
+  border:0!important;
+}

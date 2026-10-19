@@ -1,0 +1,287 @@
+/* 56.6.8 - physical, folded index markers; gilt question mark on the manual.
+   Existing paper content, suits, reveals and turn lifecycle are unchanged. */
+
+/* The ornament sits on the cloth cover, so the existing hinge carries it. */
+body[data-ui] .manual-question {
+  position:absolute;display:block!important;left:33%;top:23%;width:44%;height:57%;
+  overflow:visible;pointer-events:none;transform:translateZ(.15px);
+}
+body[data-ui] #game-screen .session-manual .manual-question {
+  left:29%;top:18%;width:52%;height:64%;
+}
+
+/* Native buttons are stable hit targets. Everything tactile is inside. */
+body[data-ui] #rules-dialog .rules-tab[data-bookmark],
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {
+  position:relative!important;isolation:isolate;overflow:visible!important;
+  display:block!important;box-sizing:border-box!important;border:0!important;
+  background:none!important;border-radius:0!important;box-shadow:none!important;
+  transform:none!important;translate:none!important;scale:none!important;filter:none!important;
+  padding:0!important;margin:0!important;transition:none!important;
+  touch-action:manipulation;perspective:500px;-webkit-tap-highlight-color:transparent;
+  --marker-image:url('assets/bookmark-sage.webp');--marker-angle:-.6deg;--marker-recess:4px;
+  --marker-ink:#f4ebd9;--marker-edge:#bcb49a;--marker-end:5px;
+}
+body[data-ui] #rules-dialog .rules-tab[data-bookmark]::before,
+body[data-ui] #rules-dialog .rules-tab[data-bookmark]::after,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]::before,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]::after {
+  content:none!important;
+}
+body[data-ui] [data-bookmark] .bookmark-body {
+  position:absolute;display:block;inset:0;transform-origin:50% 100%;
+  transform:translateY(var(--marker-recess)) rotate(var(--marker-angle));
+  transition:transform 270ms cubic-bezier(.18,.74,.25,1);
+  perspective:500px;
+}
+body[data-ui] [data-bookmark] .bookmark-shadow {
+  display:block;position:absolute;inset:10px -3px -5px 6px;z-index:-1;
+  opacity:.65;border-radius:5px 6px 0 0;
+  background:linear-gradient(180deg,#08050c44,#08050c99 70%,#08050ccc);
+  box-shadow:3px 4px 5px #08050c65;transform:rotate(1deg);
+  pointer-events:none;
+}
+body[data-ui] [data-bookmark] .bookmark-backing {
+  position:absolute;display:block;inset:3px -1px -13px 3px;
+  border-radius:5px 7px 0 0;
+  background:linear-gradient(90deg,#08060b66,transparent 12% 83%,#eee1c54d),
+    linear-gradient(#160e164d,#160e164d),var(--marker-image) center/150px;
+  border:1px solid #0c07147a;box-shadow:1px 1px 0 #c8b09265;
+  pointer-events:none;
+}
+body[data-ui] [data-bookmark] .bookmark-front {
+  position:absolute;display:block;inset:0 1px 0 0;overflow:visible;
+  border-radius:var(--marker-end) 6px 1px 1px;
+  transform-origin:50% 100%;
+  background:
+    linear-gradient(90deg,#110e1240,transparent 9% 88%,#e6d9c033 96%,#19131f5c),
+    linear-gradient(180deg,#dfd6bd15 0%,transparent 16% 61%,#0f0b1538 84%,#0f0b158c 100%),
+    var(--marker-image) center/145px;
+  border:1px solid #e5d7bc46;border-bottom:0;
+  box-shadow:inset 0 1px 0 #ddd0b853,inset 1px 0 0 #f9e7bb18,
+    inset -1px 0 0 #160f216e,0 2px 1px #10081399,2px 3px 3px #09050c45;
+  transition:transform 100ms ease-out;
+}
+/* A rolled-over end has a dark cut cross-section and a small lit radius.
+   It is not a border drawn on top of a flat rectangle. */
+body[data-ui] [data-bookmark] .bookmark-fold {
+  position:absolute;display:block;left:-1px;right:-1px;top:-1px;height:10px;
+  border-radius:var(--marker-end) 6px 3px 2px;
+  background:linear-gradient(180deg,#0e0b1159 0 10%,#e5d7b882 18%,#efdab42b 37%,
+    transparent 57%,#0d081440 88%,#0d081480),var(--marker-image) center 9px/145px;
+  border-top:1px solid #ead8bb62;box-shadow:0 1px 1px #0e091333;
+  pointer-events:none;
+}
+body[data-ui] [data-bookmark] .bookmark-fold::after {
+  content:'';position:absolute;left:4px;right:5px;bottom:1px;height:1px;
+  background:linear-gradient(90deg,transparent,#f1e1c750 10% 87%,transparent);
+}
+/* Separate dark needle holes and short highlighted threads in the selvedge. */
+body[data-ui] [data-bookmark] .bookmark-stitches {
+  position:absolute;display:block;inset:11px 4px 0;pointer-events:none;
+}
+body[data-ui] [data-bookmark] .bookmark-stitches::before,
+body[data-ui] [data-bookmark] .bookmark-stitches::after {
+  content:'';position:absolute;top:0;bottom:0;width:2px;
+  background:repeating-linear-gradient(180deg,#0b07147a 0 1px,#e4ceb480 1px 3px,#ead9bd38 3px 4px,transparent 4px 7px);
+  box-shadow:1px 0 0 #0c081229;
+}
+body[data-ui] [data-bookmark] .bookmark-stitches::before {left:0;}
+body[data-ui] [data-bookmark] .bookmark-stitches::after {right:0;}
+body[data-ui] [data-bookmark] .bookmark-root {
+  position:absolute;left:-1px;right:-1px;bottom:-10px;height:22px;
+  background:linear-gradient(180deg,transparent,#08060d7a 58%,#08060de0);
+  border-bottom:1px solid #050309c9;pointer-events:none;
+}
+body[data-ui] [data-bookmark] .bookmark-label {
+  display:flex;align-items:center;justify-content:center;position:relative;
+  width:100%;height:100%;box-sizing:border-box;padding:10px 10px 13px;gap:7px;
+  color:var(--marker-ink);text-shadow:0 -1px 0 #130d18b3,0 1px 0 #ffffff0a;
+  font-size:14px;font-weight:750;line-height:1.25;letter-spacing:0;
+  pointer-events:none;
+}
+body[data-ui] [data-bookmark].active .bookmark-body {
+  transform:translateY(-3px) rotate(0deg);
+}
+body[data-ui] [data-bookmark][data-bookmark-held] .bookmark-front {transform:rotateX(13deg);}
+
+/* Section edges: five visible leaves above the text page, not a second toolbar.
+   These edges occlude the marker roots, which pass underneath the paper. */
+body[data-ui] #entity-book-dialog .entity-tabs::after,
+body[data-ui] #rules-dialog .rules-toc::after {
+  content:'';position:absolute;pointer-events:none;z-index:8;
+  background:
+    linear-gradient(90deg,#6d574047,transparent 7% 88%,#3a292037),
+    repeating-linear-gradient(180deg,#e2d8c2 0 1px,#8f85746b 1px 2px,#c9bfa7 2px 3px,#f2e8d2 3px 4px);
+  box-shadow:0 -1px 0 #f2e5cc96,0 -4px 5px #08040c47;
+}
+body[data-ui] #entity-book-dialog .entity-tabs {
+  gap:10px!important;padding:10px 7px 0!important;margin:0 1px -1px!important;
+  height:82px!important;min-height:82px!important;flex:0 0 82px!important;
+  align-items:end;z-index:2;
+}
+body[data-ui] #entity-book-dialog .entity-tabs::after {
+  left:2px;right:1px;bottom:-2px;height:10px;border-radius:2px 3px 0 0;
+  transform:rotate(-.12deg);
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] {
+  height:66px!important;min-height:66px!important;
+  --marker-image:url('assets/bookmark-demon.webp');--marker-ink:#fff0de;
+  --marker-angle:-1.15deg;--marker-recess:4px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="ghost"] {
+  --marker-image:url('assets/bookmark-ghost.webp');--marker-ink:#f8eaff;
+  --marker-angle:.7deg;--marker-recess:1px;--marker-end:3px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-category="succubus"] {
+  --marker-image:url('assets/bookmark-succubus.webp');--marker-ink:#ffeadf;
+  --marker-angle:-.45deg;--marker-recess:5px;--marker-end:6px;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label {
+  flex-direction:column;gap:3px;padding:10px 7px 13px;font-size:14px!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {
+  font-size:14px!important;line-height:1.3!important;white-space:nowrap!important;
+  letter-spacing:0!important;font-weight:750!important;
+}
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .category-glyph,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .category-glyph svg {
+  width:18px!important;height:18px!important;color:var(--marker-ink)!important;
+  opacity:1!important;filter:none!important;flex:0 0 18px;
+}
+body[data-ui] #entity-book-dialog .entity-leaves { margin-top:0!important; }
+
+/* The reference volume uses a folded woven index at the fore-edge. */
+body[data-ui] #rules-dialog .rules-layout {
+  grid-template-columns:165px minmax(0,1fr)!important;
+}
+body[data-ui] #rules-dialog .rules-toc {
+  overflow:visible!important;padding:12px 0 6px 0!important;
+  margin-right:-4px!important;isolation:isolate;
+}
+body[data-ui] #rules-dialog .rules-toc::after {
+  right:-3px;top:0;bottom:-1px;width:12px;border-radius:2px 0 0 2px;
+  background:linear-gradient(180deg,#fff1d422,transparent 30%,#44322633),
+    repeating-linear-gradient(90deg,#ddd3be 0 1px,#8f857480 1px 2px,#c8bda7 2px 3px,#ece2cc 3px 4px);
+  box-shadow:-1px 0 0 #fff0dca0,-4px 0 5px #0b090c47;
+}
+body[data-ui] #rules-dialog .rules-tabs {
+  display:flex!important;flex-direction:column!important;gap:12px!important;
+  padding:4px 5px 14px 2px!important;overflow-y:auto!important;overflow-x:hidden!important;
+  height:100%;max-height:100%;scrollbar-width:thin;scrollbar-color:#9b967d #14211a;
+}
+body[data-ui] #rules-dialog .rules-tab[data-bookmark] {
+  width:100%!important;min-height:55px!important;height:55px!important;flex:0 0 55px!important;
+}
+body[data-ui] #rules-dialog .rules-tab:nth-child(2) { --marker-image:url('assets/bookmark-slate.webp');--marker-angle:.4deg;--marker-recess:1px; }
+body[data-ui] #rules-dialog .rules-tab:nth-child(3) { --marker-image:url('assets/bookmark-umber.webp');--marker-angle:-.9deg;--marker-recess:5px; }
+body[data-ui] #rules-dialog .rules-tab:nth-child(4) { --marker-image:url('assets/bookmark-plum.webp');--marker-angle:.8deg;--marker-recess:2px; }
+body[data-ui] #rules-dialog .rules-tab:nth-child(5) { --marker-image:url('assets/bookmark-pine.webp');--marker-angle:-.3deg;--marker-recess:5px; }
+body[data-ui] #rules-dialog .rules-tab:nth-child(6) { --marker-image:url('assets/bookmark-wine.webp');--marker-angle:.6deg;--marker-recess:2px; }
+body[data-ui] #rules-dialog .rules-tab:nth-child(7) { --marker-image:url('assets/bookmark-taupe.webp');--marker-angle:-.4deg;--marker-recess:4px; }
+body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-label {
+  justify-content:flex-start;padding:7px 11px 7px 14px;gap:8px;
+}
+body[data-ui] #rules-dialog .rules-tab[data-bookmark] .rules-tab-name {
+  font-size:14px!important;line-height:1.3!important;color:var(--marker-ink)!important;
+  white-space:nowrap!important;
+}
+body[data-ui] #rules-dialog .rules-tab[data-bookmark] .rules-tab-num {
+  font-size:13px!important;line-height:1.2!important;color:#ece1c9!important;
+  opacity:1!important;letter-spacing:.03em!important;
+}
+@media(min-width:761px) {
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-body {
+    transform-origin:100% 50%;transform:translateX(var(--marker-recess)) rotate(var(--marker-angle));
+  }
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark].active .bookmark-body {transform:translateX(-3px) rotate(0deg);}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-front {transform-origin:100% 50%;border-bottom:1px solid #e5d7bc46;border-right:0;border-radius:6px 0 0 5px;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-fold {
+    top:-1px;left:-1px;bottom:-1px;height:auto;width:9px;right:auto;border-radius:6px 2px 2px 5px;
+    background:linear-gradient(90deg,#0f0b1159,#e2d7b785 21%,#ead9b326 41%,transparent 64%,#10091480),var(--marker-image) center/145px;
+    border-top:0;border-left:1px solid #ead8bb62;box-shadow:1px 0 1px #0f091344;
+  }
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-fold::after {left:6px;top:4px;bottom:4px;right:auto;width:1px;height:auto;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-root {left:auto;top:-1px;right:-11px;bottom:-1px;height:auto;width:25px;background:linear-gradient(90deg,transparent,#07060dbc);}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-stitches {inset:4px 0 4px 10px;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-stitches::before,
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-stitches::after {left:0;right:0;width:auto;height:2px;background:repeating-linear-gradient(90deg,#0b07146b 0 1px,#e4ceb473 1px 3px,#ead9bd38 3px 4px,transparent 4px 7px);}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-stitches::after {top:auto;bottom:0;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-backing {inset:3px -13px -1px 3px;border-radius:5px 0 0 5px;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark][data-bookmark-held] .bookmark-front {transform:rotateY(-13deg);}
+}
+@media(max-width:760px) {
+  body[data-ui] #rules-dialog .rules-toc {
+    padding:0!important;margin:0 0 -1px!important;flex:0 0 77px!important;height:77px!important;
+  }
+  body[data-ui] #rules-dialog .rules-tabs {
+    display:flex!important;flex-direction:row!important;align-items:end!important;
+    height:77px!important;max-height:none!important;overflow-x:auto!important;overflow-y:hidden!important;
+    gap:11px!important;padding:14px 6px 9px!important;scrollbar-width:none;
+  }
+  body[data-ui] #rules-dialog .rules-tabs::-webkit-scrollbar {display:none;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] {
+    width:auto!important;height:52px!important;min-height:52px!important;
+    min-width:132px!important;flex:0 0 auto!important;
+    padding:0 14px!important;
+  }
+  /* Hidden measuring label gives each horizontal marker its full, unbroken name. */
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-body {position:relative;inset:auto;height:52px;margin:0 -8px;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-front {position:relative;inset:auto;height:52px;}
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-label {padding:10px 14px 11px;gap:7px;}
+  body[data-ui] #rules-dialog .rules-toc::after {
+    left:1px;right:0;top:auto;bottom:-2px;height:10px;width:auto;border-radius:3px 2px 0 0;
+    background:linear-gradient(90deg,#74563c3d,transparent 7% 88%,#4533283d),
+      repeating-linear-gradient(180deg,#e3d8c3 0 1px,#8f85747a 1px 2px,#cabfa8 2px 3px,#f1e7d1 3px 4px);
+    box-shadow:0 -1px 0 #f7ead5b0,0 -4px 5px #08050c44;
+  }
+}
+@media(min-width:600px) {
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label {flex-direction:row;gap:8px;}
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {font-size:15px!important;}
+}
+@media(max-width:355px) {
+  body[data-ui] #entity-book-dialog .entity-tabs {padding-left:2px!important;padding-right:2px!important;gap:7px!important;}
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label {padding-left:5px;padding-right:5px;}
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark] .bookmark-label>span:not(.category-glyph) {font-size:13px!important;}
+}
+@media(hover:hover) and (pointer:fine) {
+  body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]:hover .bookmark-body,
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark]:hover .bookmark-body {transform:translateY(-3px) rotate(0deg);}
+  @media(min-width:761px) {
+    body[data-ui] #rules-dialog .rules-tab[data-bookmark]:hover .bookmark-body {transform:translateX(-3px) rotate(0deg);}
+  }
+}
+body[data-ui][data-input="keyboard"] [data-bookmark]:focus-visible .bookmark-front {
+  outline:2px solid #eadfbd;outline-offset:3px;
+}
+@media(prefers-reduced-motion:reduce) {
+  body[data-ui] [data-bookmark] .bookmark-body,
+  body[data-ui] [data-bookmark] .bookmark-front {transition:none!important;}
+  body[data-ui] [data-bookmark][data-bookmark-held] .bookmark-front {transform:none!important;}
+}
+/* Cloth stays thin; only the leather marker has the heavier rolled edge. */
+@media(max-width:760px) {
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-fold {height:6px;}
+}
+@media(min-width:761px) {
+  body[data-ui] #rules-dialog .rules-tab[data-bookmark] .bookmark-fold {width:6px;}
+}
+body[data-ui] [data-bookmark] .bookmark-fold::after {opacity:.6;transition:opacity 200ms ease;}
+body[data-ui] [data-bookmark].active .bookmark-fold::after {opacity:1;}
+body[data-ui] [data-bookmark].active .bookmark-front {
+  box-shadow:inset 0 1px 0 #f2dfb59e,inset 1px 0 0 #e4d3b22b,
+    inset -1px 0 0 #160f216e,0 2px 1px #10081399,2px 4px 3px #09050c55;
+}
+/* The torn top of the grimoire sheet sits over these leaves, not a black gap. */
+body[data-ui] #entity-book-dialog .entity-tabs::after {bottom:-10px;height:18px;}
+@media(prefers-reduced-motion:reduce) {
+  body[data-ui] [data-bookmark] .bookmark-fold::after {transition:none!important;}
+}
+/* The obsolete pseudo-tabs are disabled, including their invisible tweens. */
+body[data-ui] #rules-dialog .rules-tab[data-bookmark]::before,
+body[data-ui] #rules-dialog .rules-tab[data-bookmark]::after,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]::before,
+body[data-ui] #entity-book-dialog .entity-tab[data-bookmark]::after {
+  animation:none!important;transition:none!important;
+}

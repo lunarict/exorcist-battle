@@ -1,0 +1,48 @@
+/* v56.6.24: approved REF03 roll, original six paper faces and typography. */
+body[data-ui] #game-screen .trait .mystery-ink {
+  display:inline-block!important;
+  margin:0!important;padding:0!important;border:0!important;
+  background:none!important;box-shadow:none!important;text-shadow:none!important;
+  color:#644b5c!important;opacity:.91;
+  font:700 23px/1.22 var(--f-type,'Courier New',monospace)!important;
+  letter-spacing:.055em!important;text-transform:uppercase!important;
+  mix-blend-mode:multiply;
+  transform:none!important;
+}
+body[data-ui] #game-screen .trait .mystery-ink::before,
+body[data-ui] #game-screen .trait .mystery-ink::after { content:none!important; }
+/* The old letterpress squeeze must not compete with the mesh, including
+   the legacy just-revealed/just-concealed text effects after state commit. */
+body[data-ui] #game-screen .trait.paper-fingerdown,
+body[data-ui] #game-screen .trait.paper-pressing,
+body[data-ui] #game-screen .trait.paper-sealing {
+  scale:1!important;translate:0 0!important;
+}
+body[data-ui] #game-screen .trait.just-revealed,
+body[data-ui] #game-screen .trait.just-concealed,
+body[data-ui] #game-screen .trait.just-revealed .trait-value,
+body[data-ui] #game-screen .trait.just-concealed .trait-value,
+body[data-ui] #game-screen .trait.just-revealed .trait-meta,
+body[data-ui] #game-screen .trait.just-concealed .trait-meta {
+  animation:none!important;opacity:1!important;filter:none!important;
+  scale:1!important;translate:0 0!important;
+}
+body[data-ui] #game-screen .trait[data-paper-roll="active"] {
+  z-index:12!important;isolation:isolate;overflow:visible!important;
+  animation:none!important;transition:none!important;scale:1!important;translate:0 0!important;
+}
+body[data-ui] #game-screen .trait[data-paper-roll="active"]::before,
+body[data-ui] #game-screen .trait[data-paper-roll="active"]::after,
+body[data-ui] #game-screen .trait[data-paper-roll="active"] > :not([data-motion-layer]) {
+  visibility:hidden!important;pointer-events:none!important;
+}
+body[data-ui] #game-screen .trait > canvas.paper-roll-surface {
+  position:absolute!important;display:block!important;
+  visibility:visible!important;pointer-events:none!important;
+  margin:0!important;padding:0!important;border:0!important;border-radius:0!important;
+  max-width:none!important;max-height:none!important;
+  background:none!important;box-shadow:none!important;
+  transform:none!important;scale:1!important;translate:0 0!important;rotate:none!important;
+  animation:none!important;filter:none!important;opacity:1!important;
+  z-index:20!important;
+}
