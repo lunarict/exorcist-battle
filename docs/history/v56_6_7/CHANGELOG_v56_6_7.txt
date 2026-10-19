@@ -1,0 +1,43 @@
+ODERZHIMYE 56.6.7 - bound pages
+Base: 56.6.6. Static site; replace the COMPLETE deployed folder.
+
+RULES COVER
+Both large and small covers have no writing, plaque, book pictogram or eye.
+Cloth quarter binding, rigid board, blind frame, spine bands and fore-edge
+index tabs give the reference-book silhouette. Button labels/accessible names
+remain outside the object. Original grimoire engraved eye is unchanged.
+
+BOUND CHAPTERS
+Rules chapters use woven index tabs along the page edge: left on desktop,
+across the top on narrow screens. Entity suit tabs meet the paper edge.
+The active bookmark protrudes; a layered page block and gutter distinguish
+navigation from independent text panels. Ghost ink remains lilac/purple.
+Neutral paper, existing editorial rule blocks, wording and data are preserved.
+
+PAGE MOTION
+An outgoing leaf rotates about the gutter, exposing the next page beneath it.
+Its back has neutral paper; old ink does not change to the new suit mid-turn.
+Only a clipped viewport-sized overlay is painted. The copied text is inert,
+aria-hidden, has no duplicate IDs, and is removed when the animation settles.
+Previous/next directions differ. Rapid selection uses the last choice, without
+a delayed queue. Scroll, closing, width changes and reduced motion cancel the
+transient sheet safely. The page state is committed exactly once.
+The earlier letterpress/spring trait reveal is NOT replaced by peeling/flipping.
+Object activation still completes before its matching dialog opens.
+
+SCROLL AND RESOURCE LIFECYCLE
+- Replaced live alpha-mask/blur passes on six trait papers with prepainted
+  transparent WebP faces/contact shadows. Original six alpha silhouettes match.
+- Batches text-fit style reads/writes; browser-chrome height-only resizes no
+  longer trigger all typography measurements or interrupt trait animations.
+- An initialized but CLOSED mobile globe ignores resize rendering. Reopening
+  resumes the same renderer. Hidden/half-initialized canvases do not draw.
+- Removed overlapping chapter arrival fades. The chapter transition is owned
+  by one finite page-leaf animation; no continuous animation loop was added.
+Globe shaders, geometry/math, roll timings, texture assets and rendering methods
+are unchanged. Its visibility/resize lifecycle was intentionally modified.
+
+DELIVERY
+New: binding.css, binding.js, six assets/paper-face-N.webp and six matching
+assets/paper-shadow-N.webp. Cache and versioned references updated to 56.6.7.
+Do not deploy just app.js or index.html: all new assets are required.

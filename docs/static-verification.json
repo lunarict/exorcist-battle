@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "check": "App logic identical after removing two presentation hooks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged binding.js",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged mobile-ball.js",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged fieldnotes.js",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged ritual.js",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged interactions.js",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged styles.css",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged readability.css",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Unchanged binding.css",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "All CSS assets exist",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Precache paths exist",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "New files precached",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "No fonts added",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "New JS has no timers or repeated rendering loops",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "New animation uses no blur/filter/shadow keyframes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "No added words in covers",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 16,
+  "failed": 0
+}

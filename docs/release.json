@@ -1,0 +1,28 @@
+{
+  "version": "56.6.8",
+  "base": "56.6.7",
+  "name": "Material bookmarks",
+  "new_files": [
+    "bookmarks.css",
+    "bookmarks.js",
+    "assets/bookmark-demon.webp",
+    "assets/bookmark-ghost.webp",
+    "assets/bookmark-pine.webp",
+    "assets/bookmark-plum.webp",
+    "assets/bookmark-sage.webp",
+    "assets/bookmark-slate.webp",
+    "assets/bookmark-succubus.webp",
+    "assets/bookmark-taupe.webp",
+    "assets/bookmark-umber.webp",
+    "assets/bookmark-wine.webp"
+  ],
+  "tests": {
+    "browser_passed": 199,
+    "static_passed": 16
+  },
+  "limitations": [
+    "No physical iPhone / Safari test",
+    "Inline local browser resources; no hosted upgrade verification",
+    "No FPS guarantee or network game test"
+  ]
+}

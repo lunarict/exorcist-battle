@@ -1,0 +1,3355 @@
+{
+  "version": "56.6.6",
+  "browser_checks_passed": 551,
+  "source_checks_passed": 70,
+  "limits": [
+    "Chromium only; no physical iPhone/Safari test",
+    "Offline inlined test harness; local HTTP navigation is blocked in this environment",
+    "No live hosting, service-worker update or offline installation test",
+    "No real peer-to-peer multiplayer session; no physical-device GPU certification"
+  ],
+  "suites": {
+    "motion": {
+      "checks": [
+        {
+          "name": "rules-dialog entry is intermediate",
+          "passed": true,
+          "detail": {
+            "open": true,
+            "state": "opening",
+            "opacity": 0.410361,
+            "scale": "0.989976",
+            "veil": 0.410361
+          }
+        },
+        {
+          "name": "rules-dialog exit retains top layer",
+          "passed": true,
+          "detail": {
+            "open": true,
+            "state": "closing",
+            "opacity": 0.910443
+          }
+        },
+        {
+          "name": "rules-dialog close cleans state",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "entity-book-dialog entry is intermediate",
+          "passed": true,
+          "detail": {
+            "open": true,
+            "state": "opening",
+            "opacity": 0.409812,
+            "scale": "0.989967",
+            "veil": 0.409812
+          }
+        },
+        {
+          "name": "entity-book-dialog exit retains top layer",
+          "passed": true,
+          "detail": {
+            "open": true,
+            "state": "closing",
+            "opacity": 0.978642
+          }
+        },
+        {
+          "name": "entity-book-dialog close cleans state",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "magic-ball-dialog entry is intermediate",
+          "passed": true,
+          "detail": {
+            "open": true,
+            "state": "opening",
+            "opacity": 0.252228,
+            "scale": "1",
+            "veil": 0.215354
+          }
+        },
+        {
+          "name": "live globe parent is never scaled",
+          "passed": true,
+          "detail": {
+            "open": true,
+            "state": "opening",
+            "opacity": 0.252228,
+            "scale": "1",
+            "veil": 0.215354
+          }
+        },
+        {
+          "name": "magic-ball-dialog exit retains top layer",
+          "passed": true,
+          "detail": {
+            "open": true,
+            "state": "closing",
+            "opacity": 0.910194
+          }
+        },
+        {
+          "name": "magic-ball-dialog close cleans state",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "open-rules-home waits for object animation",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "open-rules-home focus restored",
+          "passed": true,
+          "detail": "open-rules-home"
+        },
+        {
+          "name": "open-entity-book-home waits for object animation",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "open-entity-book-home focus restored",
+          "passed": true,
+          "detail": "open-entity-book-home"
+        },
+        {
+          "name": "open-magic-ball-home waits for object animation",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "open-magic-ball-home focus restored",
+          "passed": true,
+          "detail": "open-magic-ball-home"
+        },
+        {
+          "name": "picker expanded 0",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker exit smoothly frees layout 0",
+          "passed": true,
+          "detail": {
+            "full": 225,
+            "mid": 120.265625
+          }
+        },
+        {
+          "name": "picker completely folded 0",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker expanded 1",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker exit smoothly frees layout 1",
+          "passed": true,
+          "detail": {
+            "full": 225,
+            "mid": 120.265625
+          }
+        },
+        {
+          "name": "picker completely folded 1",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker expanded 2",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker exit smoothly frees layout 2",
+          "passed": true,
+          "detail": {
+            "full": 225,
+            "mid": 120.328125
+          }
+        },
+        {
+          "name": "picker completely folded 2",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker rapid reversal 25",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker rapid reversal 80",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "picker rapid reversal 150",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "entity selection collapses picker",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "modal exit reversed safely",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Escape during arrival closes safely",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "search results usable",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "search result opens rule with highlight",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "cancel form awaits exit",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "cancel preserves game",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "confirm redeals",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Escape after confirm does not reuse confirm",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "share close button animates",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "share closed",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "legacy trait reveal completes",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "legacy trait conceal completes",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "open-rules-game object gate preserved",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "open-entity-book-game object gate preserved",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "open-magic-ball-game object gate preserved",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "ordinary button responds while pressed",
+          "passed": true,
+          "detail": "0.969634"
+        },
+        {
+          "name": "keyboard modality kept",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "reduced motion immediate entry",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "reduced motion immediate exit",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "reduce setting safely finishes pending exit",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no stuck managed dialog states",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no uncaught JS errors",
+          "passed": true,
+          "detail": []
+        }
+      ],
+      "errors": []
+    },
+    "layout": {
+      "checks": [
+        {
+          "name": "320 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "320 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 45,
+              "h": 52
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 45,
+              "h": 52
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 45,
+              "h": 52
+            },
+            {
+              "id": "restart-button",
+              "w": 45,
+              "h": 52
+            }
+          ]
+        },
+        {
+          "name": "320 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "320 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "360 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "restart-button",
+              "w": 49,
+              "h": 52
+            }
+          ]
+        },
+        {
+          "name": "360 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "360 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "390 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "restart-button",
+              "w": 49,
+              "h": 52
+            }
+          ]
+        },
+        {
+          "name": "390 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "390 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "430 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "restart-button",
+              "w": 49,
+              "h": 52
+            }
+          ]
+        },
+        {
+          "name": "430 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "430 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "640 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 49,
+              "h": 52
+            },
+            {
+              "id": "restart-button",
+              "w": 49,
+              "h": 52
+            }
+          ]
+        },
+        {
+          "name": "640 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "640 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "768 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 49,
+              "h": 54
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 49,
+              "h": 54
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 49,
+              "h": 54
+            },
+            {
+              "id": "restart-button",
+              "w": 49,
+              "h": 54
+            }
+          ]
+        },
+        {
+          "name": "768 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "768 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1024 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 124.296875,
+              "h": 54
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 182.359375,
+              "h": 54
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 182.703125,
+              "h": 54
+            },
+            {
+              "id": "restart-button",
+              "w": 44,
+              "h": 54
+            }
+          ]
+        },
+        {
+          "name": "1024 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1024 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 home text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity white-delirium text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity white-delirium paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity mosquito text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity mosquito paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity barabashka text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity barabashka paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity gnome text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity gnome paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity evil-clown text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity evil-clown paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity lawyer text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity lawyer paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity true-evil text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity true-evil paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity queen-spades text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity queen-spades paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity upstairs-neighbor text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity upstairs-neighbor paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity fridge-thing text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity fridge-thing paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity crushed-ant text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity crushed-ant paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity sanya text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity sanya paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity math-teacher text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity math-teacher paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity bloody-mary text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity bloody-mary paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity goldfish text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity goldfish paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity called-girl text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity called-girl paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity sleep-paralysis text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity sleep-paralysis paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity ex-boyfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity ex-boyfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity ex-girlfriend text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity ex-girlfriend paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity night-butterfly text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity night-butterfly paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity evil-cupid text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity evil-cupid paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity edik text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity edik paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity last-piece text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity last-piece paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 entity moms-friend-son text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 entity moms-friend-son paper width",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 paper still neutral",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 rules intro text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 rules setup text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 rules turn text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 rules reading text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 rules cards text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 rules exorcism text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 rules suits text fits",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 full name readable; narrow tabs have accessible ellipsis",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "1280 toolbar touch targets",
+          "passed": true,
+          "detail": [
+            {
+              "id": "open-rules-game",
+              "w": 124.296875,
+              "h": 54
+            },
+            {
+              "id": "open-entity-book-game",
+              "w": 182.359375,
+              "h": 54
+            },
+            {
+              "id": "open-magic-ball-game",
+              "w": 182.703125,
+              "h": 54
+            },
+            {
+              "id": "restart-button",
+              "w": 44,
+              "h": 54
+            }
+          ]
+        },
+        {
+          "name": "1280 no manual book emblem",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "1280 six seals completion",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no layout JS errors",
+          "passed": true,
+          "detail": []
+        }
+      ],
+      "errors": []
+    },
+    "edge": {
+      "checks": [
+        {
+          "name": "touch activation waits for book",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "touch focus does not show white outline",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "touch dismiss is animated",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "cancelled touch releases press",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "double form submission commits once",
+          "passed": true,
+          "detail": {
+            "count": 1,
+            "pending": false,
+            "open": false,
+            "value": "confirm",
+            "state": null
+          }
+        },
+        {
+          "name": "visibility interruption completes dismissal",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "queued old close event does not cancel new opening",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "backdrop dismissal begins exit",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "backdrop dismissal does not redeal",
+          "passed": true,
+          "detail": 1
+        },
+        {
+          "name": "no lingering modal lock",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no edge-case JS errors",
+          "passed": true,
+          "detail": []
+        }
+      ]
+    },
+    "source": {
+      "checks": [
+        {
+          "name": "entity dataset unchanged",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "trait renderer unchanged",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "traitAction authoritative function unchanged",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all seven rules chapters unchanged",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "mobile-ball.js byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "tabletop.css byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "folio.css byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "styles.css byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "ritual.css byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "refinement.css byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "ritual.js byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "readability.css byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "fieldnotes.css byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/laid-rag.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/print-dust.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/wordmark.svg byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/paper-tape.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/felt-needled.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/torn-note-4.png byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/metal-handbrushed.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/leather-pressed.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/black-gloss-shell.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/ball-mobile-faces.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/bookcloth-weave.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/ball-mobile-front.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/pewter-grain.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/violet-bookcloth.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/ball-mobile-back.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/fieldnote-edge-4.svg byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/torn-note-1.png byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/plastic-microtexture.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/mending-tape.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/paper-ink-flecks.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/fieldnote-edge-6.svg byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/ball-mobile-resin.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/fieldnote-edge-3.svg byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/cotton-stock.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/grimoire-hide.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/tabletop-felt.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/torn-note-5.png byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/field-binder.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/liquid-caustics.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/flecked-vellum.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/fieldnote-edge-2.svg byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/torn-note-3.png byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/fieldnote-edge-5.svg byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/rag-stock.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/soft-kraft.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/parchment-fibers.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/aged-cover.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/fieldnote-edge-1.svg byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/torn-note-6.png byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/ink-leather.webp byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "assets/torn-note-2.png byte-identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "immutable data declarations identical",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "mobile-ball.js syntax",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "fieldnotes.js syntax",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "interactions.js syntax",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "service-worker.js syntax",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "tabletop.js syntax",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "ritual.js syntax",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "app.js syntax",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "unique HTML IDs",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "local HTML resources exist",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "precache resources exist",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "new motion layer precached",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "rules book emblem removed",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no font files distributed",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "ghost accents switched",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "UI wrappers do not patch prototypes",
+          "passed": true,
+          "detail": null
+        }
+      ]
+    }
+  }
+}

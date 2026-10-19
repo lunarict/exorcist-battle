@@ -1,0 +1,344 @@
+{
+  "version": "56.6.25-review",
+  "unit": {
+    "base": "v56.6.24",
+    "build": "v56.6.25 review",
+    "tests": [
+      "750 source rows preserved; 740 concept identities; both gender forms are explicit; no combined endings/slashes",
+      "100000 independent age/type draws: target proportions and grammar sex consistency checked",
+      "Russian age endings: 18,21,22,24,25,111,112,121,127",
+      "Every concept visited before the first repeat in an unconstrained full cycle",
+      "10000 alternating-sex characters: no within-party repeats or repeats inside last 40 draws per category; history reloaded 100 times",
+      "Corrupted/blocked storage: generation works with RAM fallback",
+      "All 14 funny names remain reachable, in their correct name-sex pools",
+      "Actual app.js adapters: 8000 generated characters; correct name/grammar sex, same network shape, all 10 fixed profiles reachable"
+    ],
+    "source": {
+      "health": {
+        "rows": 150,
+        "concepts": 150
+      },
+      "job": {
+        "rows": 150,
+        "concepts": 145
+      },
+      "hobby": {
+        "rows": 150,
+        "concepts": 149
+      },
+      "love": {
+        "rows": 150,
+        "concepts": 148
+      },
+      "secret": {
+        "rows": 150,
+        "concepts": 148
+      },
+      "bio": {
+        "count": 80,
+        "mean": 53.1625,
+        "under50": 39,
+        "types": {
+          "женщина": 30,
+          "мужчина": 31,
+          "трансформер": 9,
+          "рептилоид": 10
+        }
+      }
+    },
+    "sample": {
+      "N": 100000,
+      "seed": 12345,
+      "meanAge": 36.67186,
+      "ageBands": [
+        {
+          "min": 18,
+          "max": 24,
+          "weight": 20,
+          "actual": 20.156
+        },
+        {
+          "min": 25,
+          "max": 34,
+          "weight": 35,
+          "actual": 35.087
+        },
+        {
+          "min": 35,
+          "max": 49,
+          "weight": 30,
+          "actual": 29.913
+        },
+        {
+          "min": 50,
+          "max": 64,
+          "weight": 10,
+          "actual": 9.976
+        },
+        {
+          "min": 65,
+          "max": 79,
+          "weight": 4,
+          "actual": 3.867
+        },
+        {
+          "min": 80,
+          "max": 127,
+          "weight": 1,
+          "actual": 1.001
+        }
+      ],
+      "types": {
+        "женщина": 44914,
+        "мужчина": 45072,
+        "рептилоид": 4950,
+        "трансформер": 5064
+      },
+      "ageByType": {
+        "женщина": {
+          "total": 44914,
+          "bands": [
+            8972,
+            15902,
+            13458,
+            4439,
+            1680,
+            463
+          ],
+          "nameMale": 0
+        },
+        "мужчина": {
+          "total": 45072,
+          "bands": [
+            9196,
+            15684,
+            13487,
+            4495,
+            1791,
+            419
+          ],
+          "nameMale": 45072
+        },
+        "рептилоид": {
+          "total": 4950,
+          "bands": [
+            992,
+            1705,
+            1473,
+            530,
+            197,
+            53
+          ],
+          "nameMale": 2460
+        },
+        "трансформер": {
+          "total": 5064,
+          "bands": [
+            996,
+            1796,
+            1495,
+            512,
+            199,
+            66
+          ],
+          "nameMale": 2452
+        }
+      },
+      "genderMismatch": 0,
+      "antiRepeat": {
+        "characters": 10000,
+        "traitDraws": 50000,
+        "cooldown": 40,
+        "violations": 0,
+        "reloads": 100
+      },
+      "appAdapter": {
+        "characters": 8000,
+        "scripted": 181,
+        "specialNames": [
+          "Александр Швепс",
+          "Мастурбист",
+          "Баронесса ля Син'як",
+          "Оксюморон",
+          "Умный человек в очках",
+          "Оранжевый Человек",
+          "Вован де Морт",
+          "Егор Кринж",
+          "Юрий Вдул",
+          "Я Русский"
+        ]
+      }
+    },
+    "integrity": {}
+  },
+  "browser": {
+    "engine": "Chromium",
+    "loading": "All app resources fulfilled from the supplied archive in memory; no live-site access",
+    "viewports": [
+      {
+        "width": 320,
+        "tests": [
+          "All six values reveal in reduced-motion mode",
+          "All six values conceal in reduced-motion mode",
+          "Eight rapid presses commit one reveal",
+          "Hidden network values remain null; no age/gender/concept metadata exposed",
+          "Longest male/female forms and long bio: no horizontal text overflow",
+          "Saving/continuing preserves already-created values instead of rerolling them (RAM-storage QA shim)"
+        ],
+        "paperRenderer": {
+          "duration": 1120,
+          "active": 0,
+          "completed": 0,
+          "cancelled": 0,
+          "fallbacks": 0,
+          "snapshots": 0,
+          "lastError": null,
+          "renderers": {
+            "webgl": 0,
+            "software": 0
+          },
+          "maxActive": 0,
+          "jobs": []
+        },
+        "errors": []
+      },
+      {
+        "width": 390,
+        "tests": [
+          "All six values reveal in reduced-motion mode",
+          "All six values conceal in reduced-motion mode",
+          "Eight rapid presses commit one reveal",
+          "Hidden network values remain null; no age/gender/concept metadata exposed",
+          "Longest male/female forms and long bio: no horizontal text overflow",
+          "Saving/continuing preserves already-created values instead of rerolling them (RAM-storage QA shim)"
+        ],
+        "paperRenderer": {
+          "duration": 1120,
+          "active": 0,
+          "completed": 0,
+          "cancelled": 0,
+          "fallbacks": 0,
+          "snapshots": 0,
+          "lastError": null,
+          "renderers": {
+            "webgl": 0,
+            "software": 0
+          },
+          "maxActive": 0,
+          "jobs": []
+        },
+        "errors": []
+      },
+      {
+        "width": 768,
+        "tests": [
+          "All six values reveal in reduced-motion mode",
+          "All six values conceal in reduced-motion mode",
+          "Eight rapid presses commit one reveal",
+          "Hidden network values remain null; no age/gender/concept metadata exposed",
+          "Longest male/female forms and long bio: no horizontal text overflow",
+          "Saving/continuing preserves already-created values instead of rerolling them (RAM-storage QA shim)"
+        ],
+        "paperRenderer": {
+          "duration": 1120,
+          "active": 0,
+          "completed": 0,
+          "cancelled": 0,
+          "fallbacks": 0,
+          "snapshots": 0,
+          "lastError": null,
+          "renderers": {
+            "webgl": 0,
+            "software": 0
+          },
+          "maxActive": 0,
+          "jobs": []
+        },
+        "errors": []
+      },
+      {
+        "width": 1280,
+        "tests": [
+          "All six values reveal in reduced-motion mode",
+          "All six values conceal in reduced-motion mode",
+          "Eight rapid presses commit one reveal",
+          "Hidden network values remain null; no age/gender/concept metadata exposed",
+          "Longest male/female forms and long bio: no horizontal text overflow",
+          "Saving/continuing preserves already-created values instead of rerolling them (RAM-storage QA shim)"
+        ],
+        "paperRenderer": {
+          "duration": 1120,
+          "active": 0,
+          "completed": 0,
+          "cancelled": 0,
+          "fallbacks": 0,
+          "snapshots": 0,
+          "lastError": null,
+          "renderers": {
+            "webgl": 0,
+            "software": 0
+          },
+          "maxActive": 0,
+          "jobs": []
+        },
+        "errors": []
+      }
+    ],
+    "networkLobbyTested": false,
+    "realIOSDeviceTested": false,
+    "identicalFixture": {
+      "sameDimensions": true,
+      "diffBoundingBox": null,
+      "reducedMotion": true
+    }
+  },
+  "normalMotion": {
+    "width": 390,
+    "normalMotion": true,
+    "paper": {
+      "duration": 1120,
+      "active": 0,
+      "completed": 1,
+      "cancelled": 0,
+      "fallbacks": 0,
+      "snapshots": 2,
+      "lastError": null,
+      "renderers": {
+        "webgl": 0,
+        "software": 1
+      },
+      "maxActive": 1,
+      "jobs": []
+    },
+    "errors": []
+  },
+  "integrity": {
+    "baseFiles": 171,
+    "newFilesTotal": 173,
+    "unchangedFiles": 168,
+    "changed": [
+      "index.html",
+      "service-worker.js",
+      "app.js"
+    ],
+    "added": [
+      "trait-catalog.js",
+      "trait-generator.js"
+    ],
+    "removed": [],
+    "allPresentationAndGraphicsUnchanged": true,
+    "appJsFromBlankPlayerOnwardIdentical": true,
+    "namesAndFunnyNamesByteIdentical": true,
+    "precacheEntries": 107,
+    "missingPrecacheAssets": [],
+    "baseZipSHA256": "9b3a665d0d0e5f2259a3a0cf055c14c328bccff0c72909c30f19e531e76d3a16"
+  },
+  "textChanges": {
+    "copyEdits": 87,
+    "genderEdits": 181,
+    "regularCopyEdits": 84,
+    "regularGenderEdits": 180,
+    "totalRows": 750,
+    "uniqueConcepts": 740
+  }
+}

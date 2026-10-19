@@ -1,0 +1,26 @@
+{
+  "version": "56.6.6",
+  "base": "56.6.5",
+  "name": "lilac-motion",
+  "browser_checks_passed": 551,
+  "source_checks_passed": 70,
+  "new_files": [
+    "polish.css",
+    "interactions.js"
+  ],
+  "changed_runtime_files": [
+    "index.html",
+    "app.js",
+    "tabletop.js",
+    "fieldnotes.js",
+    "service-worker.js",
+    "polish.css",
+    "interactions.js"
+  ],
+  "limits": [
+    "Chromium only; no physical iPhone/Safari test",
+    "Offline inlined test harness; local HTTP navigation is blocked in this environment",
+    "No live hosting, service-worker update or offline installation test",
+    "No real peer-to-peer multiplayer session; no physical-device GPU certification"
+  ]
+}

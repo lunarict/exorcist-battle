@@ -1,0 +1,183 @@
+{
+  "passed": 33,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "All names and effect text fit at 320: demon/1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: demon/2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: demon/3",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: demon/4",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: demon/5",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: demon/6",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: demon/7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: demon/8",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/3",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/4",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/5",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/6",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: ghost/8",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/3",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/4",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/5",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/6",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/7",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All names and effect text fit at 320: succubus/8",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Paper stays painted after scroll/height resize 1",
+      "passed": true,
+      "detail": {
+        "light_paper_fraction": 0.974
+      }
+    },
+    {
+      "check": "Paper stays painted after scroll/height resize 2",
+      "passed": true,
+      "detail": {
+        "light_paper_fraction": 0.923
+      }
+    },
+    {
+      "check": "Paper stays painted after scroll/height resize 3",
+      "passed": true,
+      "detail": {
+        "light_paper_fraction": 0.914
+      }
+    },
+    {
+      "check": "Paper stays painted after scroll/height resize 4",
+      "passed": true,
+      "detail": {
+        "light_paper_fraction": 0.896
+      }
+    },
+    {
+      "check": "Paper stays painted after scroll/height resize 5",
+      "passed": true,
+      "detail": {
+        "light_paper_fraction": 0.95
+      }
+    },
+    {
+      "check": "Paper stays painted after scroll/height resize 6",
+      "passed": true,
+      "detail": {
+        "light_paper_fraction": 0.941
+      }
+    },
+    {
+      "check": "Active bookmark visible at 740 breakpoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native scrolling cancels transient sheet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No unhandled errors in stress cases",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}
